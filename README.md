@@ -8,11 +8,11 @@ Davide Lissoni Mat.179878
 
 The project client refers to Daniele Dellagiacoma server.
 
-Daniele Dellagiacoma server url:https://dellagiacomaintrosde2.herokuapp.com
+Daniele Dellagiacoma server url:https://dellagiacomaintrosde2.herokuapp.com  application path:/sdelab
 
 Link to Daniele Dellagiacoma repository:https://github.com/DanieleDellagiacoma/introsde-2016-assignment-2
 
-Personal server url: https://lissonidavideapp.herokuapp.com
+Personal server url: https://lissonidavideapp.herokuapp.com  application path:/assignment2
 
 
 ##Client structure (ClientIntroSdeAss2):
