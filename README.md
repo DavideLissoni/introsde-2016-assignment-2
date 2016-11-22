@@ -143,7 +143,7 @@ Request #10,#11 and #12 has not been implemented in the server.
 
 In order to deploy the client clone the repository project in local:
 ```sh
-$ git clone https://github.com/ShadowTemplate/introsde-2016-assignment-2.git
+$ git clone https://github.com/DavideLissoni/introsde-2016-assignment-2.git
 ```
 
 Then go to the project folder just cloned and run the command ant execute.client
