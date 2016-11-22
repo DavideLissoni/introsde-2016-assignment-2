@@ -4,7 +4,7 @@ Introsde-2016-assignment-2 report
 
 Davide Lissoni Mat.179878
 
-24/10/2016
+22/11/2016
 
 The project client refers to Daniele Dellagiacoma server.
 
@@ -33,6 +33,7 @@ The package contains the following classes:
 The request are executed in order to satisfy the assignment requirements.
 
 The program logs the result of each request executed into two files: client-server-json.log and client-server-xml.log.
+
 Request #10, Request #11 and Request #12 has not been implemented since both the servers don't provide these requests.
 
 **Additional notes:**
