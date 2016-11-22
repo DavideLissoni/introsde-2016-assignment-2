@@ -145,5 +145,7 @@ In order to deploy the client clone this project in local:
 
 Then go to the project folder just cloned and run the command ant execute.client
 
-        
+The server has been updated just in order to show its code.
+In any case in order to create the war file make sure to be located on the directory of the server project and type:
+
  
