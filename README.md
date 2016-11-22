@@ -36,9 +36,9 @@ The program logs the result of each request executed into two files: client-serv
 
 **Additional notes:**
 
-Extra request #10, Request #11 and Request #12 has not been implemented since both the servers don't provide these requests.
+Extra requests #10, Request #11 and Request #12 has not been implemented since both the servers doesn't provide these requests.
 
-The xml and json body of the requests  and the parsing of the responses have been implemented according to Daniele Dellagiacoma's server.
+The xml and json body of the requests and the parsing of the responses have been implemented according to Daniele Dellagiacoma's server.
 
 
 ##Server structure (IntrosdeDavideLissoniAssignment):
@@ -68,7 +68,7 @@ The server is structured in 4 different packages:
 3. **PersonResource** used as extension of PersonCorrelationResource for some /person/id requests.
 
 
-The server keep the xml and json structure used for the lab07 because this implementation appeared to be more complete.
+The server keeps the xml and json structure used for the lab07 because this implementation appeared to be more complete.
 For this reason the #4 and #8 bodys request must follow the xml and json project structure as showed in the examples exponed below:
 
 **example xml of request #4 that insert a person containing 2 different health profiles:**
@@ -153,7 +153,7 @@ $ ant execute.client
 ```
 
 The server has been updated just in order to show its code.
-In any case in order to create the war file make sure to be located on the directory of the server project and type:
+In any case in order to create the war file make sure to be located on the repository directory and type:
 
 ```sh
 $ cd IntrosdeDavideLissoniAssignment
