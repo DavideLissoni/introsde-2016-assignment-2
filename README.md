@@ -90,18 +90,18 @@ For this reason the #4 and #8 bodys request must follow the xml and json project
 <firstname>Chuck</firstname><lastname>Norris</lastname>
 <HealthProfile>
    <measure>
-				<measureDefinition>
+	<measureDefinition>
           <idMeasureDef>1</idMeasureDef>
-				  <measureName>weight</measureName>
+	  <measureName>weight</measureName>
           <measureType>double</measureType>
-				  </measureDefinition>
+	 </measureDefinition>
    <value>78.9</value>
    </measure>
    <measure>
     <measureDefinition>
-		  <idMeasureDef>2</idMeasureDef>
+      <idMeasureDef>2</idMeasureDef>
       <measureName>height</measureName>
-			<measureType>double</measureType>
+      <measureType>double</measureType>
      </measureDefinition>
     <value>172</value>
     </measure>
@@ -141,17 +141,22 @@ Request #10,#11 and #12 has not been implemented in the server.
 
 ##Deployment:
 
-In order to deploy the client clone this project in local:
+In order to deploy the client clone the repository project in local:
+```sh
+$ git clone https://github.com/ShadowTemplate/introsde-2016-assignment-2.git
+```
 
 Then go to the project folder just cloned and run the command ant execute.client
+
 ```sh
-cd ClientIntroSdeAss2
-ant execute.client
+$ cd ClientIntroSdeAss2
+$ ant execute.client
 ```
 
 The server has been updated just in order to show its code.
 In any case in order to create the war file make sure to be located on the directory of the server project and type:
+
 ```sh
-ant create.war
+$ ant create.war
 ```
  
