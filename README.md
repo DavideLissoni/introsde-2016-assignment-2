@@ -33,7 +33,9 @@ The package contains the following classes:
 The request are executed in order to satisfy the assignment requirements.
 
 The program logs the result of each request executed into two files: client-server-json.log and client-server-xml.log.
+
 **Additional notes:**
+
 Extra request #10, Request #11 and Request #12 has not been implemented since both the servers don't provide these requests.
 
 The xml and json body of the requests  and the parsing of the responses have been implemented according to Daniele Dellagiacoma's server.
@@ -154,6 +156,7 @@ The server has been updated just in order to show its code.
 In any case in order to create the war file make sure to be located on the directory of the server project and type:
 
 ```sh
+$ cd IntrosdeDavideLissoniAssignment
 $ ant create.war
 ```
  
