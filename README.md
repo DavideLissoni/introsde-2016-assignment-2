@@ -15,7 +15,7 @@ Link to Daniele Dellagiacoma repository:https://github.com/DanieleDellagiacoma/i
 Personal server url: https://lissonidavideapp.herokuapp.com
 
 
-##Client structure:
+##Client structure (ClientIntroSdeAss2):
 The Client is composed by a singolar package "requests".
 
 The package contains the following classes:
@@ -53,7 +53,7 @@ Measure available:
 The xml and json body of the requests  and the parsing of the responses have been implemented according to Daniele Dellagiacoma's server.
 
 
-##Server structure:
+##Server structure (IntrosdeDavideLissoniAssignment):
 
 The server is structured in 4 different packages:
 
@@ -132,7 +132,7 @@ For this reason the #4 and #8 bodys request must follow the xml and json project
 </healthMeasureHistory>
 ```
 **example json of request #8 that update a health profile measure and insert a new history using the old health profile measure value that has been modified:**
-```xml
+```json
 {"value": "72", "timestamp":2011-12-09 00:00:00"}
 ```
 **Additional notes:**
@@ -144,8 +144,14 @@ Request #10,#11 and #12 has not been implemented in the server.
 In order to deploy the client clone this project in local:
 
 Then go to the project folder just cloned and run the command ant execute.client
+```sh
+cd ClientIntroSdeAss2
+ant execute.client
+```
 
 The server has been updated just in order to show its code.
 In any case in order to create the war file make sure to be located on the directory of the server project and type:
-
+```sh
+ant create.war
+```
  
