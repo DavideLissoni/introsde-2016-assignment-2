@@ -33,22 +33,8 @@ The package contains the following classes:
 The request are executed in order to satisfy the assignment requirements.
 
 The program logs the result of each request executed into two files: client-server-json.log and client-server-xml.log.
-
-Request #10, Request #11 and Request #12 has not been implemented since both the servers don't provide these requests.
-
 **Additional notes:**
-
-Health Profile build dynamically.
-
-Measure available:
-
-1. 1 weight
-2. 2 height
-3. 3 steps
-4. 4 bloodPressure
-5. 5 heartRate
-6. 6 bmi
-
+Extra request #10, Request #11 and Request #12 has not been implemented since both the servers don't provide these requests.
 
 The xml and json body of the requests  and the parsing of the responses have been implemented according to Daniele Dellagiacoma's server.
 
@@ -137,7 +123,18 @@ For this reason the #4 and #8 bodys request must follow the xml and json project
 ```
 **Additional notes:**
 
-Request #10,#11 and #12 has not been implemented in the server.
+Health Profile build dynamically.
+
+Measure available:
+
+1. 1 weight
+2. 2 height
+3. 3 steps
+4. 4 bloodPressure
+5. 5 heartRate
+6. 6 bmi
+
+Extra request #10,#11 and #12 has not been implemented in the server.
 
 ##Deployment:
 
